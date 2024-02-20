@@ -1,0 +1,52 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/product-chain-1.png",
+      "title": "Front-End",
+      "description": "Proficient in JavaScript, TypeScript, HTML, and CSS, I specialize in creating responsive designs using Angular. My expertise extends to SEO, PWA, and mobile-first strategies, ensuring optimal performance and user experiences through innovative use of cutting-edge technologies."
+    },
+    {
+      "id": "2",
+      "src": "./img/tag-1.png",
+      "title": "Back-End",
+      "description": "In backend development, I adeptly utilize Java and Node.js to construct robust systems. Proficient in SQL for structured data and MongoDB for NoSQL requirements, I ensure seamless data management and scalability, delivering efficient and dynamic solutions."
+    },
+    {
+      "id": "3",
+      "src": "./img/feather-pen-2.png",
+      "title": "UI & UX Design",
+      "description": "Specializing in UI/UX design, I use JavaScript, HTML, CSS, and Angular to craft visually appealing and intuitive interfaces. Attention to detail ensures responsive layouts, cross-browser compatibility, and accessibility, enhancing user experiences through creative and thoughtful design solutions."
+    },
+    {
+      "id": "4",
+      "src": "./img/feather-pen-1.png",
+      "title": "Webflow Development",
+      "description": "As a web developer, I proficiently combine front-end technologies like JavaScript, HTML, CSS, and Angular with robust backend technologies such as Java and Node.js. My expertise extends to managing data efficiently using SQL databases and MongoDB, creating cohesive, dynamic, and user-friendly web applications."
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/placeholder-image.png",
+      "title": "Ahuse",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "View In Github"
+    },
+    {
+      "id": "2",
+      "src": "./img/placeholder-image-1.png",
+      "title": "App Dashboard",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "View In Github"
+    },
+    {
+      "id": "3",
+      "src": "./img/placeholder-image-2.png",
+      "title": "Easy Rentn",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "View In Github"
+    }
+  ]
+ 
+}
