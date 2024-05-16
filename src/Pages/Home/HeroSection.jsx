@@ -1,4 +1,17 @@
+
+
+const resumeURL = "http://localhost:3000/Resume-Abhay-Thorat.pdf"
+
 export default function HeroSection() {
+  const downloadFileAtURL =(url)=>{
+    const fileName = url.split("/").pop()
+    const aTag = document.createElement('a')
+    aTag.href=url
+    aTag.setAttribute('download',fileName)
+    document.body.appendChild(aTag);
+    aTag.click();
+    aTag.remove();
+  }
   return (
     <section id="heroSection" className="hero--section">
       <div className="hero--section--content--box">
@@ -16,7 +29,7 @@ export default function HeroSection() {
             <br /> 
           </p>
         </div>
-        <button className="btn btn-primary">Download Resume</button>
+        <button className="btn btn-primary" onClick={()=>{downloadFileAtURL(resumeURL)}}>Download Resume</button>
       </div>
       <div className="hero--section--img">
         <img src="./img/about-me.jpg" alt="Hero Section" />

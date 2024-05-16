@@ -28,23 +28,23 @@
   "portfolio": [
     {
       "id": "1",
-      "src": "./img/placeholder-image.png",
-      "title": "Ahuse",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "src": "./img/addToCart.png",
+      "title": "Add To Cart",
+      "description": "'Apna Dukan Cart' - A Flipkart-inspired application with streamlined add-to-cart functionality, facilitating effortless shopping across diverse project categories.",
       "link": "View In Github"
     },
     {
       "id": "2",
-      "src": "./img/placeholder-image-1.png",
-      "title": "App Dashboard",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "src": "./img/signUp page.png",
+      "title": "SignUp Page",
+      "description": "I created a Sign Up/Login interface using Angular Material and integrated it with a JSON server for data management, emphasizing user validation and security, showcasing full-stack expertise.",
       "link": "View In Github"
     },
     {
       "id": "3",
-      "src": "./img/placeholder-image-2.png",
-      "title": "Easy Rentn",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "src": "./img/to do List.png",
+      "title": "ToDo List",
+      "description": "Developed a dynamic Todo list using Angular UI Material with drag-and-drop functionality and task management stages (Todo, In Progress, Done). Users can seamlessly edit and delete tasks, showcasing frontend prowess.",
       "link": "View In Github"
     }
   ]
