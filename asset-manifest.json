@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Abthorat1999.github.io/abhay-s-portfolio/static/css/main.bab6d59f.css",
-    "main.js": "/Abthorat1999.github.io/abhay-s-portfolio/static/js/main.576c3767.js",
-    "index.html": "/Abthorat1999.github.io/abhay-s-portfolio/index.html",
-    "main.bab6d59f.css.map": "/Abthorat1999.github.io/abhay-s-portfolio/static/css/main.bab6d59f.css.map",
-    "main.576c3767.js.map": "/Abthorat1999.github.io/abhay-s-portfolio/static/js/main.576c3767.js.map"
+    "main.css": "/abhay-s-portfolio/static/css/main.bab6d59f.css",
+    "main.js": "/abhay-s-portfolio/static/js/main.576c3767.js",
+    "index.html": "/abhay-s-portfolio/index.html",
+    "main.bab6d59f.css.map": "/abhay-s-portfolio/static/css/main.bab6d59f.css.map",
+    "main.576c3767.js.map": "/abhay-s-portfolio/static/js/main.576c3767.js.map"
   },
   "entrypoints": [
     "static/css/main.bab6d59f.css",
