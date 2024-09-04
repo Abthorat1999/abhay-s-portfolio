@@ -83,7 +83,7 @@ export default function ContactMe() {
               value={lastName}
             />
           </label>
-          <label className="contact--label">
+          <label className="contact--label ">
             <span className="text-md">Email</span>
             <input
               type="email"
