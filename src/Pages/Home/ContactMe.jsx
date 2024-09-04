@@ -25,7 +25,8 @@ export default function ContactMe() {
     try {
       const response = await axios.post("https://portfoliodata.onrender.com/api/FormData", data, {
         headers: {
-          "Content-Type": "application/json"
+          "Content-Type": "application/json",
+          'Access-Control-Allow-Origin': '*'
         }
       });
 

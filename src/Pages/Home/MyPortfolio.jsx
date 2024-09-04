@@ -1,31 +1,16 @@
 import data from "../../data/index.json";
-import { useNavigate } from "react-router-dom";
+import {useNavigate} from "react-router-dom"
+
 
 export default function MyPortfolio() {
-  const carts = [
-    {
-      id: 1,
-      url: "https://github.com/Abthorat1999/add-to-cart",
-      section: "section1",
-    },
-    {
-      id: 2,
-      url: "https://github.com/Abthorat1999/SingUP-Login-page",
-      section: "section2",
-    },
-    {
-      id: 3,
-      url: "https://github.com/Abthorat1999/toDo-list/tree/main/AngularToDo",
-      section: "section3",
-    },
-    // Add more items as needed...
-  ];
-
-  const handleLinkClick = (link) => {
-    window.open(link);
-  };
   const navigate = useNavigate();
 
+  const carts = [
+    { id: 1, link: {}, url: "https://example.com/cart1" },
+    { id: 2, word: "Word2", link: "https://example.com/cart2" },
+    { id: 3, word: "Word3", link: "https://example.com/cart3" },
+    // Add more carts as needed...
+];
   return (
     <section className="portfolio--section" id="MyPortfolio">
       <div className="portfolio--container-box">
@@ -34,10 +19,8 @@ export default function MyPortfolio() {
           <h2 className="section--heading">My Portfolio</h2>
         </div>
         <div>
-          <button
-            className="btn btn-github"
-            onClick={() => window.open("https://github.com/Abthorat1999")}
-          >
+          
+          <button className="btn btn-github" onClick={()=>window.open("https://github.com/Abthorat1999")}>
             <svg
               xmlns="https://github.com/Abthorat1999"
               width="22"
@@ -67,16 +50,8 @@ export default function MyPortfolio() {
                 <h3 className="portfolio--section--title">{item.title}</h3>
                 <p className="text-md">{item.description}</p>
               </div>
-              <p className="text-sm portfolio--link">
-              
-                  <span
-                    className="text-sm portfolio--link"
-                    onClick={() => window.open(carts[index].url)}
-                  >
-                    {item.link}{" "}
-                    {/* Assuming item.link contains the text for the link */}
-                  </span>
-              
+              <p className="text-sm portfolio--link" onClick={()=>window.open("https://github.com/Abthorat1999")}>
+                {item.link}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
