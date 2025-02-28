@@ -32,7 +32,7 @@ export default function HeroSection() {
         <button className="btn btn-primary" onClick={()=>{downloadFileAtURL(resumeURL)}}>Download Resume</button>
       </div>
       <div className="hero--section--img">
-        <img src="./img/about-me.jpg" alt="Hero Section" />
+        <img src="./img/abhayportf.png" alt="Hero Section" />
       </div>
     </section>
   );
