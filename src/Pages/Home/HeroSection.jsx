@@ -1,6 +1,6 @@
 
 
-const resumeURL = "/Abhay-Thorat-Resume.pdf"
+const resumeURL = "/Abhay_Thorat_Resume.docx"
 
 export default function HeroSection() {
   const downloadFileAtURL =(url)=>{
